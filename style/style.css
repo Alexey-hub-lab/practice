@@ -1,0 +1,144 @@
+body{
+  background-color:#FFD700 ;
+}
+.image{
+  max-width: 1152px;
+  width: 100%;
+  text-align: center;
+}
+.container-image{
+  text-align: center;
+
+}
+.o-nas2{
+  
+  padding: 10px;
+  
+  background-color: #000000; /* Цвет фона под заголовком */
+  max-height: 83px;
+  max-width: 183px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+ 
+}
+.o-nas{
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(253, 253, 253); /* Цвет текста */
+    padding: 2px;
+  font-size: 60px;
+}
+.place-one{
+  text-align: center;
+  margin: 0 auto;
+}
+.image-2{
+  margin-left: 150px;
+  width: 100%;
+  max-width: 1200px;
+  
+}
+.container-image2{
+  text-align: center;
+ 
+}
+.uslugi2{
+  padding: 10px;
+  background-color: #000000; /* Цвет фона под заголовком */
+  max-height: 83px;
+  max-width: 196px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.uslugi{
+  
+  text-align: center;
+  margin: 0 auto;
+  color: rgb(253, 253, 253); /* Цвет текста */
+  padding: 2px;
+font-size: 60px;
+}
+.content{
+  display: flex;
+  justify-content: space-around
+}
+.data-testid{
+  width: 100%;
+  height: 100%;
+  max-width: 180px;
+}
+.error{
+  width: 100%;
+  height: 100%;
+  max-width: 190px;
+}
+.Markings{
+  width: 100%;
+  max-width: 180px;
+  height: 100%;
+}
+.glavnoe{
+  display: flex;
+  justify-content: space-around;
+}
+#left-text,#middle-text,#right-text{
+  color: aliceblue;
+  font-size: 30px;
+  display: inline-block;
+  margin-right: 70px;
+}
+#middle-text{
+  margin-right: 100px;
+}
+.srednee{
+  display: flex;
+  justify-content: space-around;
+}
+#text-,#-text-,#-text{
+  color: aliceblue;
+  font-size: 16px;
+  display: inline-block;
+  margin-left: 100px;
+}
+#-text-{
+  margin-left: 240px;
+}
+.contacts{
+  text-align: center;
+  margin: 0 auto;
+  color: rgb(253, 253, 253); /* Цвет текста */
+  padding: 2px;
+font-size: 60px;
+}
+.contacts2{
+  padding: 10px;
+  background-color: #000000; /* Цвет фона под заголовком */
+  max-height: 83px;
+  max-width: 284px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.font-10{
+  text-align: center;
+color: aliceblue;
+}
+.gtcon{
+  color: aliceblue;
+}
+@media only screen and (max-width: 1400px){
+  .image-2{
+    margin-left: 100px;
+    width: 70%;
+  }
+  .data-testid{
+    width: 100%;
+    height: 90%;
+  }
+  #text-,#-text-,#-text{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
